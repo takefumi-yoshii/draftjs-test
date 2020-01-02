@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@types/draft-js": "^0.10.37",
     "@typescript-eslint/eslint-plugin": "^2.14.0",
     "@typescript-eslint/parser": "^2.14.0",
     "eslint": "^6.8.0",

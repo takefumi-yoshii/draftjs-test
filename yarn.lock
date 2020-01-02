@@ -1273,6 +1273,14 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/draft-js@^0.10.37":
+  version "0.10.37"
+  resolved "https://registry.yarnpkg.com/@types/draft-js/-/draft-js-0.10.37.tgz#41f3ddc64eb90d2ee7af73911c3f85e370aebdf1"
+  integrity sha512-hoAMn1DoCsNDyMILu6c3En84CHBAfycyiSqwOfO3pR+bcJ2xoa61KANGYWE7JJhKB4q0kunM+aFiBLRWWLDhxA==
+  dependencies:
+    "@types/react" "*"
+    immutable "~3.7.4"
+
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
