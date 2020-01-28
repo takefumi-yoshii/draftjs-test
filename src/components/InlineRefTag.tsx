@@ -1,8 +1,13 @@
 import * as React from 'react'
 
-const InlineRefTagComponent: React.FC = () => {
+interface Props {
+  offsetKey: string
+}
+
+const InlineRefTagComponent: React.FC<Props> = ({ offsetKey }) => {
+  console.log('offsetKey', offsetKey)
   return (
-    <div className="inline-reftag" contentEditable={false}>
+    <div className="inline-reftag" contentEditable={false} data-offset-key={offsetKey}>
       testtest
     </div>
   )

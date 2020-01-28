@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 
-import MyEditor from './components/MyEditor'
+import MyEditor from './components/MyEditor2'
 
 const App: React.FC = () => {
   return (
