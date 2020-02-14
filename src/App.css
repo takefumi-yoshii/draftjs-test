@@ -2,6 +2,11 @@
   padding: 100px 0;
 }
 
+.form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 15px;
+}
 .editor {
   margin: auto;
   padding: 15px;
@@ -9,13 +14,18 @@
   height: 500px;
   border: 1px solid #333;
   border-radius: 10px;
+  vertical-align: bottom;
+  line-height: 1em;
 }
 
 .inline-reftag {
-  width: 80px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
+  display: inline-block;
+}
+.inline-reftag::before {
+  content: attr(data-content)"";
+  display: block;
+  padding: 0.3em;
+  margin: 0.1em;
   background-color: aqua;
 }
 
